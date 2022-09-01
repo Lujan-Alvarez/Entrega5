@@ -82,10 +82,7 @@ opacity: 0.3;
 font-weight: 700;
 font-size: 19px;
 line-height: 131.02%;
-/* identical to box height, or 25px */
-
-
-background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+background: linear-gradient(98.81deg, #FFA400 -0.82%, #FB103D 101.53%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
@@ -95,7 +92,7 @@ background-clip: text;
     width: 85px;
     height: 29px;
     color:  #ffffff;
-    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
 border-radius: 17.5px;
     cursor: pointer;
     border:0 ;
