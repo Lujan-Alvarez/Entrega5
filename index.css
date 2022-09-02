@@ -22,8 +22,10 @@ a, li{
 
 }
 .logo-header img{
-    width: 80px;
-    margin-top: 13px;
+
+    width: 76px;
+    height: 79px;
+ 
 }
 header{
     display: flex;
@@ -47,9 +49,14 @@ header{
     justify-content:space-between;
     color: #ffff;
 }
-.banner h1{
-    margin: auto;
+.contenedor h1{
+
+    width: 603px;
+    height: 93px;
+    font-style: normal;
     font-weight: 700;
+    font-size: 66px;
+    line-height: 131.02%;
 }
 .banner h2{
     margin-top: 10px;
@@ -60,8 +67,16 @@ header{
     font-weight: 100;
 }
 .pizza1{
-   height: 260px;
+    position: absolute;
+    width: 265px;
+    height: 265px;
+    left: 920px;
+    top: 145px;
 }
 .pizza2{
-    height: 390px;
+    position: absolute;
+    width: 392px;
+    height: 392px;
+   
+    
 }
