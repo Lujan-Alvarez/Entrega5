@@ -65,3 +65,7 @@ header{
 .pizza2{
     height: 390px;
 }
+.boton      {
+    border-radius: 25px;
+    color: gradient #ffa100 #fb103d;
+}
