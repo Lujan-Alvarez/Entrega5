@@ -23,6 +23,7 @@ a, li{
 }
 .logo-header img{
     width: 80px;
+    margin-top: 13px;
 }
 header{
     display: flex;
@@ -36,4 +37,31 @@ header{
 }
 .nav-menu li{
     margin-right: 7rem;
+}
+.banner{
+    width:100%;
+    height: 300px;
+    margin-left: 75px;
+    display: flex;
+    position: relative;
+    justify-content:space-between;
+    color: #ffff;
+}
+.banner h1{
+    margin: auto;
+    font-weight: 700;
+}
+.banner h2{
+    margin-top: 10px;
+    font-weight: 700;
+}
+.banner p{
+    margin-top: 10px;
+    font-weight: 100;
+}
+.pizza1{
+   height: 260px;
+}
+.pizza2{
+    height: 390px;
 }
