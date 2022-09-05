@@ -12,3 +12,104 @@ body {
     background-color: rgba(19, 20, 21, 1);
     margin: 0%;
 }
+.categorias{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+  .contenedorCategorias{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+.Texto-Categoria{
+    display: flex;
+    margin: 20px 30px;
+    left: 120px;
+    font-weight: 800;
+    font-size: 15px;
+    color: #ffffff;
+  }
+  .nombre-de-categoria{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #252525;
+  }
+  .cuadrado{
+    width: 147px;
+    height: 171px;
+    border-radius: 15px;
+    background-color: #252525;
+    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .categoria-img{
+    width: 86px;
+    height: 86px;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .linea-degrade{
+    width: 30px;
+    height: 4px;
+    margin-top: 10px;
+    background: linear-gradient(98.81deg, #ffa100 -0.82%, #ff005c 101.53%);
+    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+    border-radius: 15px;
+  }
+  .pizza{
+    background: url(/Categorias/pizzablur.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+  }
+  .hamburguesa{
+    background:url(/Categorias/burgerblur.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+  }
+  .papas{
+    background:url(/Categorias/friesblur.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+  }
+.pizza2{
+    background:url(/Categorias/individualblur.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+.wrap{
+    background:url(/Categorias/burritoblur.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+.taco{
+    background:url(/Categorias/tacoblur.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+.milkshake{
+    background:url(/Categorias/batidukiblur.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
