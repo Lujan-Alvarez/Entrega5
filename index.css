@@ -15,12 +15,14 @@ body {
 }
 
 .contenedor{
-    display: flex;
+    /*CONTENEDOR CAJA SECTION 1*/
+        display: flex;
     justify-content: center;
     align-items: center;
     gap: 38px;
 }
 .contenedor-reco{
+    /*CAJA CONTENEDOR DE RECOMENDADOS*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,6 +46,7 @@ body {
     max-height: 62px;
 }
 .t-reco{
+    /*TITULO RECOMENDADOS*/
     font-style: normal;
 font-weight: 500;
 font-size: 22px;
@@ -68,7 +71,7 @@ color: #FFFFFF;
 font-weight: 400;
 font-size: 14px;
 line-height: 17px;
-/* identical to box height */
+
 
 letter-spacing: 0.5px;
 
