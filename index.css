@@ -5,12 +5,14 @@
 * {
     font-family: 'Montserrat', sans-serif;
     margin: 0%;
+    
 }
 body {
     height: 200vh;
     width: 100%;
     background-color: rgba(19, 20, 21, 1);
     margin: 0%;
+<<<<<<< HEAD
     color: white;
 }
 .populares {
@@ -285,4 +287,142 @@ header{
     border-radius: 15px;
     color: #FFFFFF;
     cursor: pointer;
+=======
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+}
+.contenedor-reco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 347px;
+    height: 103px;
+    gap: 20px;
+    background: #252525;
+    box-shadow: 0px -0px 30px 0px rgba(0,0,0,0.55);
+    border-radius: 15px;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.contenedor-reco:hover{
+    transform: scale(1.1);
+}
+
+
+
+.contenedor-reco img{
+    max-width: 62px;
+    max-height: 62px;
+}
+.t-reco{
+    font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 131.02%;
+padding: 24px;
+
+
+color: #FFFFFF;
+}
+.r-style1{
+    font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 131.02%;
+/* identical to box height, or 20px */
+
+
+color: #FFFFFF;
+}
+.r-style2 {
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+letter-spacing: 0.5px;
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+opacity: 0.3;
+}
+.r-style3 {
+    font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 131.02%;
+background: linear-gradient(98.81deg, #FFA400 -0.82%, #FB103D 101.53%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+}
+.contenedor-reco button {
+    width: 85px;
+    height: 29px;
+    color:  #ffffff;
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+border-radius: 17.5px;
+    cursor: pointer;
+    border:0 ;
+}
+.footer-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+    padding-top: 155px;
+    padding-bottom: 68px;
+}
+.footer-navbar a {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 131.02%;
+    text-align: center;
+    text-decoration: none;
+    
+
+color: #FFFFFF;
+
+}
+.nucbazappi {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;    
+}
+.nucbazappi h1{
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 131.02%;
+/* or 22px */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.nucbazappi h2 {
+    font-style: normal;
+font-size: 22px;
+line-height: 131.02%;
+font-weight: bold;
+
+
+color: #FFFFFF;
+}
+
+@media(max-width:992px) {
+    .contenedor{
+       flex-direction: column;
+    }
+>>>>>>> recomendados
 }
