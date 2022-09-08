@@ -12,7 +12,6 @@ body {
     width: 100%;
     background-color: rgba(19, 20, 21, 1);
     margin: 0%;
-<<<<<<< HEAD
     color: white;
 }
 .populares {
@@ -84,7 +83,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+    border-inline-color: transparent;
 }
 .button-agregar {
     font-size: 0.6em;
@@ -287,7 +286,6 @@ header{
     border-radius: 15px;
     color: #FFFFFF;
     cursor: pointer;
-=======
 }
 
 .contenedor{
@@ -424,5 +422,4 @@ color: #FFFFFF;
     .contenedor{
        flex-direction: column;
     }
->>>>>>> recomendados
 }
