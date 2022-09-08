@@ -11,8 +11,178 @@ body {
     width: 100%;
     background-color: rgba(19, 20, 21, 1);
     margin: 0%;
+    color: white;
+}
+.populares {
+    margin: 0% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5px;
+    height: 40%;
+}
+.tittle-populares {
+    font-size: 0.8em;
+}
+.cont-populares {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 90%;
+    gap: 10px;
+}
+.card-popular {
+    background-color: rgba(37, 37, 37, 1);
+    padding: 10px;
+    border-radius: 10px;
+    width: 39%;
+    height: 19%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    /* max-width: 282px;
+    max-height: 213px; */
+}
+.cont-img-populares {
+    width: 100%;
+}
+.img-populares {
+    object-fit: contain;
+    /* max-height: 100px; */
+    width: 100%;
+}
+.desc-populares {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    gap: 2px;
+}
+.title-desc-populares {
+    font-weight: 500;
+    font-size: 0.6em;
+}
+.text-populares {
+    font-weight: 400;
+    font-size: 0.5em;
+    color: rgba(255, 255, 255, 0.363);
+}
+.cont-precio {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.precio {
+    font-size: 0.7em;
+    font-weight: 800;
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.button-agregar {
+    font-size: 0.6em;
+    padding: 2px 8px;
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
+    border-radius: 10px;
 }
 
+@media (min-width: 400px) {
+    .populares {
+        gap: 10px;
+        height: 43%;
+    }
+    .card-popular {
+        width: 40%;
+        height: 19%;
+    }
+}
+@media (min-width: 500px) {
+    .card-popular {
+        width: 26%;
+        height: 25%;
+    }
+    .title-desc-populares {
+        font-size: 0.8em;
+    }
+    .text-populares {
+        font-size: 0.8em;
+    }
+    .precio {
+        font-size: 0.8em;
+    }
+    .button-agregar {
+        font-size: 0.8em;
+        padding: 2px 8px;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 800px) {
+    .card-popular {
+        width: 28%;
+        height: 28%;
+    }
+}
+
+@media (min-width: 970px) {
+    .card-popular {
+        width: 20%;
+        height: 40%;
+    }
+    .desc-populares {
+        justify-content: space-around;
+    }
+    .title-desc-populares {
+        font-size: 1em;
+    }
+    .text-populares {
+        font-size: 1em;
+    }
+    .precio {
+        font-size:  1em;
+    }
+    .button-agregar {
+        font-size:  1em;
+        padding: 2px 8px;
+        border-radius: 10px;
+    }
+}
+@media (min-width: 1400) {
+    .tittle-populares {
+        font-size: 1.2em;
+    }
+    .card-popular {
+        border-radius: 40px;
+        width: 23%;
+        height: 45%;
+    }
+    .desc-populares {
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-around;
+        width: 100%;
+        height: 100%;
+    }
+    .title-desc-populares {
+        font-size: 1.5em;
+    }
+    .text-populares {
+        font-size: 1.5em;
+    }
+    .precio {
+        font-size:  1.5em;
+    }
+    .button-agregar {
+        font-size:  1.5em;
+        padding: 2px 8px;
+        border-radius: 10px;
+    }
+}
 a, li{
     color: #ffff ;
     font-weight: 100;
