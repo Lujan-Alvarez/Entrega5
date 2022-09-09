@@ -3,25 +3,175 @@
     src: url(./fonts/Montserrat-VariableFont_wght.ttf);
 }
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     margin: 0%;
+    /* border: 1px solid red; */
     
+    /* , sans-serif */
 }
 body {
-    min-width: 300px;
     height: 1991px;
-    width: 1529px;
+    width: 100%;
+    min-width: 300px;
+    /* min-width: 300px; */
+    /* width: 1529px; */
+    /* max-width: 1529; */
+    /* max-height: 1991; */
+
+    /* h1991 y w 1529 */
     background-color: rgba(19, 20, 21, 1);
-    margin: 0%;
     color: white;
 }
 
 main {
+    box-sizing: content-box;
     margin: 0% 5%;
-    
+    height: 100%;
+    min-width: 300px;
 }
 
+    /* LUJAN */
+    
+.nav-menu a, .nav-menu li{
+    color: #ffff ;
+    font-weight: 100;
+    font-size: small;
+    list-style-type: none;
+    text-decoration: none;
+}
+header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 0.5rem 2rem; */
+}
+.logo-header{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    height: 90%;
+    max-width: 76px;
+    max-height: 79px;
+/* w76 h79 */
+}
+.logo-header img {
+    object-fit: contain;
+    width: 100%;
+}
+.nav-menu {
+    width: 30%;
+    height: 100%;
+}
+.nav-menu ul{
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav_element {
+    font-weight: 400;
+}
+
+    /* BANNER */
+
+.banner{
+    width:100%;
+    height: 300px;
+    display: flex;
+    position: relative;
+    justify-content:space-evenly;
+    align-items: center;
+    color: #ffff;
+}
+.contenedor_lujan{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contenedor_lujan h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    /* 66px */
+    line-height: 131.02%;
+    color: #FFFFFF;
+}
+.contenedor_lujan h2{
+    /* position:relative; */
+    /* width: 639px;
+    height: 118px; */
+    /* left: 35px;
+    top: 250px; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    /* 51px */
+    line-height: 131.02%;
+    color: #FFFFFF;
+}
+.contenedor_lujan p{
+    /* position: absolute; */
+    /* width: 639px;
+    height: 118px; */
+    /* left: 35px;
+    top: 330px; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    /* 21p */
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.contenedor_lujan a {
+    width: 40%;
+    height: 20%;
+}
+.check-out{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
+    box-shadow: 11px 28px 50px rgba(20, 78, 90, 0.2);
+    border-radius: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+.pizza1_lujan{
+    position: absolute;
+    object-fit: contain;
+    width: 132px;
+    height: 182px;
+    /* w265 h365 */
+    left: 20%;
+    top: 20%;
+    z-index: -2;
+}
+.pizza2_lujan{
+    position: absolute;
+    object-fit: contain;
+    width: 196px;
+    height: 196px;
+    /* w392 h392 */
+    left: 43%;
+    top: 13%;
+    z-index: -1;
+}
+    
+
+
                     /* MARCOS */
+
 .recomendados{
     width: 100%;
     height: 200px;
@@ -54,8 +204,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 347px;
-    height: 103px;
+    width: 30%;
+    height: 90%;
+    /* width: 347px;
+    height: 103px; */
+    /* w347 h103 */
     gap: 20px;
     background: #252525;
     box-shadow: 0px -0px 30px 0px rgba(0,0,0,0.55);
@@ -112,59 +265,13 @@ background-clip: text;
     border:0 ;
 }
 
-    /* FOOTER MARCOS */
-
-.footer-navbar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 27px;
-    /* 155 */
-    padding-top: 105px;
-    padding-bottom: 68px;
-}
-.footer-navbar a {
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 131.02%;
-    text-align: center;
-    text-decoration: none;
-    color: #FFFFFF;
-
-}
-.nucbazappi {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;    
-}
-.nucbazappi h1{
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 131.02%;
-/* or 22px */
-
-text-align: center;
-
-color: #FFFFFF;
-
-}
-.nucbazappi h2 {
-    font-style: normal;
-font-size: 22px;
-line-height: 131.02%;
-font-weight: bold;
-
-
-color: #FFFFFF;
-}
+    
 
     /* LUCY */
 
 .Categorias{
     width: 100%;
-    height: 300px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -174,15 +281,19 @@ color: #FFFFFF;
 .contenedorCategorias{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     /* gap: 60px; */
-    gap: 36px;
+    /* gap: 36px; */
     flex-wrap: wrap;
     width: 100%;
-    height: 70%;
+    height: 80%;
 }
 .cuadrado{
-    width: 147px;
-    height: 171px;
+    width: 30%;
+    height: 30%;
+    max-width: 147px;
+    max-height: 171px;
+    /* w147 y h171 */
     border-radius: 15px;
     background-color: #252525;
     box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
@@ -214,8 +325,12 @@ color: #FFFFFF;
     background: #252525;
 }
 .categoria-img{
-    width: 86px;
-    height: 86px;
+    object-fit: contain;
+    width: 100%;
+    height: 55%;
+    max-width: 86px;
+    max-height: 86px;
+    /* w86 h86 */
     background: transparent;
     background-repeat: no-repeat;
     background-position: center center;
@@ -276,9 +391,10 @@ color: #FFFFFF;
 .populares {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 600px;
     width: 100%;
+    box-sizing: content-box;
 }
 .tittle-populares {
     font-size: 22px;
@@ -288,27 +404,30 @@ color: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
     height: 90%;
-    gap: 40px;
 }
 .card-popular {
+    width: 40%;
+    height: 23%;
+    max-width: 282px;
+    max-height: 213px;
+    padding: 1.5% 1.5%;
+
+    box-sizing: border-box;
+    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
     background-color: rgba(37, 37, 37, 1);
-    padding: 16px 22px;
     border-radius: 15px;
-    width: 282px;
-    height: 213px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-sizing: border-box;
-    /* gap: 5px; */
-    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
     transition: transform 1s;
 }
 .card-popular:hover{
     transform: scale(1.1);
+    z-index: 1;
 }
 .cont-img-populares {
     width: 100%;
@@ -322,10 +441,8 @@ color: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: space-around;
     width: 100%;
     height: 100%;
-    /* gap: 2px; */
 }
 .title-desc-populares {
     font-weight: 500;
@@ -342,7 +459,7 @@ color: #FFFFFF;
     justify-content: space-between;
 }
 .precio {
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 800;
     background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
     -webkit-background-clip: text;
@@ -354,14 +471,119 @@ color: #FFFFFF;
     display: flex;
     align-items: center;
     font-size: 12px;
-    padding: 2px 8px;
+    padding: 2px 5px;
     background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
     border-radius: 10px;
 }
 
+/* FOOTER MARCOS */
 
+.footer-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+    /* 155 */
+    padding-top: 105px;
+    padding-bottom: 68px;
+}
+.footer-navbar a {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 131.02%;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+.nucbazappi {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;    
+}
+.nucbazappi h1{
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 131.02%;
+/* or 22px */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.nucbazappi h2 {
+    font-style: normal;
+font-size: 22px;
+line-height: 131.02%;
+font-weight: bold;
+
+
+color: #FFFFFF;
+}
 
     /* media hector */
+
+@media (min-width: 440px) {
+    .cont-populares {
+        height: 95%;
+    }
+    .card-popular {
+        height: 24%;
+    }
+}
+
+@media (min-width: 515px) {
+    .cont-populares {
+        height: 90%;
+        justify-content: space-between;
+    }
+    .card-popular {
+        height: 30%;
+        width: 30%;
+        max-width: 282px;
+        max-height: 213px;
+    }
+    .precio {
+        font-size: 19px;
+    }
+    .button-agregar {
+        padding: 3px 10px;
+    }
+}
+@media (min-width: 900px) {
+    .cont-populares {
+        align-items: center;
+    }
+    .card-popular {
+        width: 23%;
+        height: 213px;
+    }
+    .card-popular {
+        padding: 12px 12px;
+    }
+}
+@media (min-width: 1024px) {
+    .card-popular {
+        padding: 16px 22px;
+    }
+    .cont-populares {
+        justify-content: space-around;
+    }
+}
+@media (min-width: 1560px) {
+    body {
+        width: 1560px;
+    }
+    .cont-populares {
+        gap: 40px;
+    }
+}
+
+
+
 /*     
 @media (min-width: 400px) {
     .populares {
@@ -463,123 +685,3 @@ color: #FFFFFF;
     }
 } */
 
-    /* LUJAN */
-
-
-.nav-menu a,.nav-menu li{
-    color: #ffff ;
-    font-weight: 100;
-    font-size: small;
-    list-style-type: none;
-    text-decoration: none;
-
-}
-.logo-header img{
-/* position: absolute; */
-width: 76px;
-height: 79px;
-/* left: 65px;
-top: 31px; */
-}
-header{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem 2rem;
-}
-.nav-menu ul{
-    display: flex;
-    align-items: center;
-}
-.nav-menu li{
-    margin-right: 7rem;
-    /* margin-top: 3rem; */
-}
-
-    /* BANNER */
-
-.banner{
-    width:100%;
-    height: 500px;
-    display: flex;
-    /* position: relative; */
-    justify-content:space-evenly;
-    align-items: center;
-    color: #ffff;
-}
-.contenedor_lujan{
-    width: 40%;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.contenedor_lujan h1{
-    /* position: absolute; */
-    width: 603px;
-    height: 93px;
-    /* left: 35px;
-    top: 180px; */
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 66px;
-    line-height: 131.02%;
-    color: #FFFFFF;
-}
-.banner h2{
-    /* position:relative; */
-    width: 639px;
-    height: 118px;
-    /* left: 35px;
-    top: 250px; */
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 51px;
-    line-height: 131.02%;
-    color: #FFFFFF;
-}
-.banner p{
-    /* position: absolute; */
-    width: 639px;
-    height: 118px;
-    /* left: 35px;
-    top: 330px; */
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 100;
-    font-size: 21px;
-    line-height: 131.02%;
-    color: #FFFFFF;
-}
-.contenedor_imagenes {
-    width: 40%;
-}
-.pizza1_lujan{
-    position: absolute;
-    width: 265px;
-    height: 265px;
-    left: 920px;
-    top: 208px;
-}
-.pizza2_lujan{
-    position: absolute;
-    width: 392px;
-    height: 392px;
-    left: 1046px;
-    top: 94px;
-}
-.check-out{
-    /* position: absolute; */
-    width: 166px;
-    height: 50px;
-    /* left: 127px;
-    top: 470px; */
-    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
-    box-shadow: 11px 28px 50px rgba(20, 78, 90, 0.2);
-    border-radius: 15px;
-    color: #FFFFFF;
-    cursor: pointer;
-}
