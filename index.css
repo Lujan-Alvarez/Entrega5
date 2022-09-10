@@ -5,76 +5,85 @@
 * {
     font-family: 'Montserrat', sans-serif;
     margin: 0%;
+    /* border: 1px solid red; */
 }
 body {
-    min-width: 300px;
-    height: 200vh;
+    height: 1991px;
     width: 100%;
+    min-width: 320px;
     background-color: rgba(19, 20, 21, 1);
-    margin: 0%;
     color: white;
+    box-sizing: border-box;
+}
+main {
+    box-sizing: content-box;
+    margin: 0% 5%;
+    height: 100%;
 }
 .populares {
-    margin: 0% 10%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    gap: 5px;
-    height: 40%;
+    justify-content: space-around;
+    height: 600px;
+    width: 100%;
+    box-sizing: content-box;
 }
 .tittle-populares {
-    font-size: 0.8em;
+    font-size: 22px;
+    font-weight: 500;
 }
 .cont-populares {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
     width: 100%;
     height: 90%;
-    gap: 10px;
 }
 .card-popular {
+    width: 40%;
+    height: 23%;
+    max-width: 282px;
+    max-height: 213px;
+    padding: 1.5% 1.5%;
+
+    box-sizing: border-box;
+    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
     background-color: rgba(37, 37, 37, 1);
-    padding: 10px;
-    border-radius: 10px;
-    width: 39%;
-    height: 19%;
+    border-radius: 15px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
-    /* max-width: 282px;
-    max-height: 213px; */
     transition: transform 1s;
 }
-
 .card-popular:hover{
     transform: scale(1.1);
+    z-index: 1;
 }
 .cont-img-populares {
     width: 100%;
 }
 .img-populares {
     object-fit: contain;
-    /* max-height: 100px; */
+    box-sizing: border-box;
     width: 100%;
 }
 .desc-populares {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     height: 100%;
-    gap: 2px;
 }
 .title-desc-populares {
     font-weight: 500;
-    font-size: 0.6em;
+    font-size: 15px;
 }
 .text-populares {
-    font-weight: 400;
-    font-size: 0.5em;
-    color: rgba(255, 255, 255, 0.363);
+    font-weight: 400;   
+    font-size: 14px;
+    opacity: 0.3;
 }
 .cont-precio {
     width: 100%;
@@ -82,110 +91,78 @@ body {
     justify-content: space-between;
 }
 .precio {
-    font-size: 0.7em;
+    font-size: 12px;
     font-weight: 800;
     background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+    border-inline-color: transparent;
 }
 .button-agregar {
-    font-size: 0.6em;
-    padding: 2px 8px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding: 2px 5px;
     background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
     border-radius: 10px;
 }
 
-@media (min-width: 400px) {
-    .populares {
-        gap: 10px;
-        height: 43%;
+
+		/* MEDIA CUERIS */
+
+@media (min-width: 440px) {
+    .cont-populares {
+        height: 95%;
     }
     .card-popular {
-        width: 40%;
-        height: 19%;
-    }
-}
-@media (min-width: 500px) {
-    .card-popular {
-        width: 26%;
-        height: 25%;
-    }
-    .title-desc-populares {
-        font-size: 0.8em;
-    }
-    .text-populares {
-        font-size: 0.8em;
-    }
-    .precio {
-        font-size: 0.8em;
-    }
-    .button-agregar {
-        font-size: 0.8em;
-        padding: 2px 8px;
-        border-radius: 10px;
+        height: 24%;
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 515px) {
+    .cont-populares {
+        height: 90%;
+        justify-content: space-between;
+    }
     .card-popular {
-        width: 28%;
-        height: 28%;
-    }
-}
-
-@media (min-width: 970px) {
-    .card-popular {
-        width: 20%;
-        height: 40%;
-    }
-    .desc-populares {
-        justify-content: space-around;
-    }
-    .title-desc-populares {
-        font-size: 1em;
-    }
-    .text-populares {
-        font-size: 1em;
+        height: 30%;
+        width: 30%;
+        max-width: 282px;
+        max-height: 213px;
     }
     .precio {
-        font-size:  1em;
+        font-size: 19px;
     }
     .button-agregar {
-        font-size:  1em;
-        padding: 2px 8px;
-        border-radius: 10px;
+        padding: 3px 10px;
     }
 }
-@media (min-width: 1400) {
-    .tittle-populares {
-        font-size: 1.2em;
+@media (min-width: 900px) {
+    .cont-populares {
+        align-items: center;
     }
     .card-popular {
-        border-radius: 40px;
         width: 23%;
-        height: 45%;
+        height: 213px;
     }
-    .desc-populares {
-        display: flex;
-        flex-direction: column; 
+    .card-popular {
+        padding: 12px 12px;
+    }
+}
+@media (min-width: 1024px) {
+    .card-popular {
+        padding: 16px 22px;
+    }
+    .cont-populares {
         justify-content: space-around;
-        width: 100%;
-        height: 100%;
     }
-    .title-desc-populares {
-        font-size: 1.5em;
+}
+@media (min-width: 1560px) {
+    body {
+        width: 1560px;
     }
-    .text-populares {
-        font-size: 1.5em;
-    }
-    .precio {
-        font-size:  1.5em;
-    }
-    .button-agregar {
-        font-size:  1.5em;
-        padding: 2px 8px;
-        border-radius: 10px;
+    .cont-populares {
+        gap: 40px;
     }
 }
