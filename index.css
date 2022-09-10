@@ -18,157 +18,117 @@ body {
 main {
     box-sizing: content-box;
     margin: 0% 5%;
-    height: 100%;
+    height: 1711px;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    /* gap: 40px; */
 }
 
     /* LUJAN */
     
-.nav-menu a, .nav-menu li{
-    color: #ffff ;
-    font-weight: 100;
-    font-size: small;
-    list-style-type: none;
-    text-decoration: none;
-}
-header{
+    a, li{
+      color: #ffff ;
+      font-weight: 100;
+      font-size: small;
+      list-style-type: none;
+      text-decoration: none;
+  
+  }
+  .logo-header img{
+  position: absolute;
+  width: 76px;
+  height: 79px;
+  left: 65px;
+  top: 31px;
+  }
+  header{
     height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /* padding: 0.5rem 2rem; */
-}
-.logo-header{
-    display: flex;
-    align-items: center;
-    width: 15%;
-    height: 90%;
-    max-width: 76px;
-    max-height: 79px;
-/* w76 h79 */
-}
-.logo-header img {
-    object-fit: contain;
-    width: 100%;
-}
-.nav-menu {
-    width: 30%;
-    height: 100%;
-}
-.nav-menu ul{
-    padding: 0%;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.nav_element {
-    font-weight: 400;
-}
-
-    /* BANNER */
-
-.banner{
-    width:100%;
-    height: 300px;
-    display: flex;
-    position: relative;
-    justify-content:space-evenly;
-    align-items: center;
-    color: #ffff;
-}
-.contenedor_lujan{
-    width: 100%;
-    height: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.contenedor_lujan h1{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    /* 66px */
-    line-height: 131.02%;
-    color: #FFFFFF;
-}
-.contenedor_lujan h2{
-    /* position:relative; */
-    /* width: 639px;
-    height: 118px; */
-    /* left: 35px;
-    top: 250px; */
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 21px;
-    /* 51px */
-    line-height: 131.02%;
-    color: #FFFFFF;
-}
-.contenedor_lujan p{
-    /* position: absolute; */
-    /* width: 639px;
-    height: 118px; */
-    /* left: 35px;
-    top: 330px; */
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    /* 21p */
-    line-height: 56px;
-    color: #FFFFFF;
-}
-.contenedor_lujan a {
-    width: 40%;
-    height: 20%;
-}
-.check-out{
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
-    box-shadow: 11px 28px 50px rgba(20, 78, 90, 0.2);
-    border-radius: 15px;
-    color: #FFFFFF;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 700;
-    font-family: 'Montserrat';
-}
-.pizza1_lujan{
-    position: absolute;
-    object-fit: contain;
-    width: 132px;
-    height: 182px;
-    /* w265 h365 */
-    left: 20%;
-    top: 20%;
-    z-index: -2;
-}
-.pizza2_lujan{
-    position: absolute;
-    object-fit: contain;
-    width: 196px;
-    height: 196px;
-    /* w392 h392 */
-    left: 43%;
-    top: 13%;
-    z-index: -1;
-}
-    
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 2rem;
+  }
+  .nav-menu ul{
+      display: flex;
+      align-items: center;
+  }
+  .nav-menu li{
+      margin-right: 7rem;
+      margin-top: 3rem;
+  }
+  .banner{
+      width:100%;
+      height: 550px;
+      display: flex;
+      align-items: center;
+      color: #ffff;
+  }
+  .contenedor_lujan h1{
+      
+      width: 603px;
+      height: 93px;
+      left: 35px;
+      top: 180px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 66px;
+      line-height: 131.02%;
+      color: #FFFFFF;
+  }
+  .banner h2{
+      width: 639px;
+      height: 118px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 51px;
+      line-height: 131.02%;
+      color: #FFFFFF;
+  }
+  .banner p{
+      
+      width: 639px;
+      height: 118px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 100;
+      font-size: 21px;
+      line-height: 131.02%;
+      color: #FFFFFF;
+  }
+  .pizza1_lujan{
+      position: absolute;
+      width: 265px;
+      height: 265px;
+      left: 920px;
+      top: 208px;
+  }
+  .pizza2_lujan{
+      position: absolute;
+      width: 392px;
+      height: 392px;
+      left: 1046px;
+      top: 94px;
+  }
+  .check-out{
+      width: 166px;
+      height: 50px;
+      background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
+      box-shadow: 11px 28px 50px rgba(20, 78, 90, 0.2);
+      border-radius: 15px;
+      color: #FFFFFF;
+      cursor: pointer;
+  }    
 
 
                     /* MARCOS */
 
 .contenedor{
     /*CONTENEDOR CAJA SECTION 1*/
-        display: flex;
+    height: 150px;
+    width: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 38px;
@@ -184,11 +144,11 @@ header{
     background: #252525;
     box-shadow: 0px -0px 30px 0px rgba(0,0,0,0.55);
     border-radius: 15px;
-    transition-duration: 1s;
-    transition-property: all;
+    transition: transform 1s;
 }
 .contenedor-reco:hover{
-    transform: scale(1.1);
+  transform: scale(1.1);
+  z-index: 1;
 }
 
 
@@ -253,114 +213,14 @@ border-radius: 17.5px;
     border:0 ;
 }
 
-                    
-
-    /* modificado */
-
-/* .recomendados{
-    width: 100%;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-content: space-evenly; */
-    /* margin: auto; */
-/* }
-.t-reco{ */
-    /*TITULO RECOMENDADOS*/
-    /* font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 28.83px; */
-    /* padding: 24px; */
-    /* color: #FFFFFF;
-}
-.contenedor{ */
-    /*CONTENEDOR CAJA SECTION 1*/
-    /* height: 60%;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 38px;
-}
-.contenedor-reco{ */
-    /*CAJA CONTENEDOR DE RECOMENDADOS*/
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    /* width: 30%;
-    height: 90%; */
-    /* width: 347px;
-    height: 103px; */
-    /* w347 h103 */
-    /* gap: 20px;
-    background: #252525;
-    box-shadow: 0px -0px 30px 0px rgba(0,0,0,0.55);
-    border-radius: 15px;
-    transition-duration: 1s;
-    transition-property: all;
-}
-.contenedor-reco:hover{
-    transform: scale(1.1);
-}
-.contenedor-reco img{
-    max-width: 62px;
-    max-height: 62px;
-}
-.r-style1{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 131.02%; */
-/* identical to box height, or 20px */
-/* color: #FFFFFF;
-}
-.r-style2 {
-    font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-
-letter-spacing: 0.5px;
-
-color: #FFFFFF;
-
-mix-blend-mode: normal;
-opacity: 0.3;
-}
-.r-style3 {
-font-style: normal;
-font-weight: 700;
-font-size: 19px;
-line-height: 131.02%;
-background: linear-gradient(98.81deg, #FFA400 -0.82%, #FB103D 101.53%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-
-}
-.contenedor-reco button {
-    width: 85px;
-    height: 29px;
-    color:  #ffffff;
-    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
-    border-radius: 17.5px;
-    cursor: pointer;
-    border:0 ;
-} */
-
-    
-
     /* LUCY */
 
-.categorias{
-  width: 95%;
-  max-width: 75em;
+.Categorias{
+  height: 25.7em;
+  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
-  margin: auto;
   flex-wrap: wrap;
 }
 .contenedorCategorias{
@@ -398,6 +258,11 @@ background-clip: text;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  transition: transform 1s;
+}
+.cuadrado:hover{
+  transform: scale(1.1);
+  z-index: 1;
 }
 .categoria-img{
   width: 5.3em;
@@ -564,29 +429,37 @@ background-clip: text;
 
 /* FOOTER MARCOS */
 
+footer {
+  height: 150px;
+  padding: 25px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .footer-navbar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 27px;
-    /* 155 */
-    padding-top: 105px;
-    padding-bottom: 68px;
+  
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
 }
 .footer-navbar a {
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 131.02%;
-    text-align: center;
-    text-decoration: none;
-    color: #FFFFFF;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 131.02%;
+  text-align: center;
+  text-decoration: none;
+color: #FFFFFF;
 
 }
 .nucbazappi {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;    
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;    
 }
 .nucbazappi h1{
 font-style: normal;
@@ -601,85 +474,11 @@ color: #FFFFFF;
 
 }
 .nucbazappi h2 {
-    font-style: normal;
+  font-style: normal;
 font-size: 22px;
 line-height: 131.02%;
 font-weight: bold;
 
 
 color: #FFFFFF;
-}
-
-    /* media hector */
-
-@media (min-width: 440px) {
-    .cont-populares {
-        height: 95%;
-    }
-    .card-popular {
-        height: 24%;
-    }
-}
-
-@media (min-width: 515px) {
-    .cont-populares {
-        height: 90%;
-        justify-content: space-between;
-    }
-    .card-popular {
-        height: 30%;
-        width: 30%;
-        max-width: 282px;
-        max-height: 213px;
-    }
-    .precio {
-        font-size: 19px;
-    }
-    .button-agregar {
-        padding: 3px 10px;
-    }
-}
-@media (min-width: 900px) {
-    .cont-populares {
-        align-items: center;
-    }
-    .card-popular {
-        width: 23%;
-        height: 213px;
-    }
-    .card-popular {
-        padding: 12px 12px;
-    }
-}
-@media (min-width: 1024px) {
-    .card-popular {
-        padding: 16px 22px;
-    }
-    .cont-populares {
-        justify-content: space-around;
-    }
-}
-@media (min-width: 1560px) {
-    body {
-        width: 1560px;
-    }
-    .cont-populares {
-        gap: 40px;
-    }
-}
-
-
-@media(max-width:992px) {
-    .contenedor{
-       flex-direction: column;
-    }
-}
-
-@media screen and (min-width: 550px ){
-  .categorias{
-    width:50%
-  }
-  .cuadrado{
-    width: 4.5em
-    5.3em}
 }
